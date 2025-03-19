@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+   
+  display: flex;
+  flex-direction: column;
+  background-image: url(./asset/fondo-flex.jpg);
+  background-size: cover;
+  height: 100vh;
+  justify-content: flex-end;
+  background-position: center;
+ 
+
+}
+.uno{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.dos{
+    display: flex;
+    justify-content: space-between;
+}
+.tres{
+    display: flex;
+    justify-content: center;
+}
